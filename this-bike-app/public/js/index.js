@@ -1,8 +1,8 @@
-var app = angular.module("thisBike", []);
+var thisBikeApp = angular.module("thisBike", []);
 
-app.controller("thisBikeCtrl", ['$scope', function ($scope) {
-
-
-}]);
+	thisBikeApp.controller("thisBikeCtrl", ['$scope', function ($scope) {
+		console.log('dupa')
+  		$scope.test = 'Hola!';
+	}]);
 
 
