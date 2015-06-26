@@ -1,0 +1,14 @@
+{
+    "login": "loginTest1",
+    "avatar": "avatar.jpg",
+    "bike": {    
+        "photos": [
+            "img1.jpg",
+            "img2.jpg",
+            "img3.jpg"
+        ],
+        "desc" : "Awesome bike bike bike bikebike",
+        "name" : "Mr-White"
+    }
+}
+

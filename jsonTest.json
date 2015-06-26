@@ -1,36 +1,14 @@
-/* show user page for other users */
+
 {
     "login": "loginTest1",
     "avatar": "avatar.jpg",
-    "bike": {    
+    "bike": {
         "photos": [
-            "img1.jpg",
-            "img2.jpg",
-            "img3.jpg"
+            "http://placekitten.com/g/200/300",
+            "http://placekitten.com/g/200/300",
+            "http://placekitten.com/g/200/300"
         ],
-        "desc" : "Awesome bike bike bike bikebike",
-        "name" : "Mr-White"
+        "desc": "Awesome bike bike bike bikebike",
+        "name": "Mr-White"
     }
 }
-
-/* show user page for logged user */
-
-{
-    "login": "loginTest1",
-    "avatar":"avatar.jpg",
-    "bike": {    
-        "photos": [
-            "img1.jpg",
-            "img2.jpg",
-            "img3.jpg"
-        ],
-        "desc" : "Awesome bike bike bike bikebike",
-        "name" : "Mr-White"
-    },
-    "options" : {
-    	"email":"testEmail@gmail.com",
-    	"city":"Lodz"
-    }
-}
-
-
