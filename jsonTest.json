@@ -4,9 +4,9 @@
     "avatar": "avatar.jpg",
     "bike": {
         "photos": [
-            "http://placekitten.com/g/200/300",
-            "http://placekitten.com/g/200/300",
-            "http://placekitten.com/g/200/300"
+            "img1.jpg",
+            "img2.jpg",
+            "img3.jpg"
         ],
         "desc": "Awesome bike bike bike bikebike",
         "name": "Mr-White"
