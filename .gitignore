@@ -6,6 +6,11 @@
 .settings
 .idea
 .idea/
+/data
+data
+.data
+data/
+data/*
 .idea/workspace.xml
 **/.sass-cache/
 npm-debug.log
