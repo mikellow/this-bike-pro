@@ -5,4 +5,4 @@ git pull
 git push
 
 /* npm & express */
-git diff masterbranch remotebranch
+DEBUG=this-bike-app:* npm start
