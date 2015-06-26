@@ -8,6 +8,8 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var sign = require('./routes/sign');
+var showBike = require('./routes/showBike');
 
 var app = express();
 //var thisBike = angular.module('thisBike', [/*'ngModules',*/]);
@@ -25,7 +27,9 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/users', users);
+app.use('/users-page', users);
+app.use('/sign-page', sign);
+app.use('/show-page', showBike);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
